@@ -38,10 +38,7 @@ class StockPickerAgent():
     def trending_company_finder(self) -> Agent:
         return Agent(config=self.agents_config['trending_company_finder'],
                      tools=[SerperDevTool()],
-                     # Use crew-level unified memory only.
-                     # Per-agent `memory=True` creates its own memory instance and
-                     # can fall back to a default embedder that isn't allowed
-                     # for embeddings (e.g. chat model), causing 403 errors.
+                 
                      memory=False)
     
     @agent

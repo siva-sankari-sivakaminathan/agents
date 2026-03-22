@@ -9,6 +9,7 @@ from datetime import datetime
 from pathlib import Path
 
 from debate_engine.crew import DebateEngine
+from debate_engine.leaderboard import get_leaderboard_url
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
@@ -543,6 +544,15 @@ def display_leaderboard(case_name="AI Hiring Discrimination Case"):
                 print()
         
         print("="*60)
+        print("\nGRADIO LEADERBOARD (web UI)")
+        print("-" * 60)
+        print(f"  URL: {get_leaderboard_url()}")
+        print("  Start the UI: uv run debate_leaderboard")
+        print(
+            "  If that port is busy, the app will pick the next free port and print "
+            "the real URL in its own console output."
+        )
+        print("-" * 60)
         
     except FileNotFoundError:
         print("No final verdict found. Please run the debate first.")

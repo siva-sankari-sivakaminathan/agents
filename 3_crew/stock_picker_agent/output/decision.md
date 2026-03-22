@@ -1,7 +1,6 @@
-The chosen company for investment is Truist Financial Corporation (TFC) due to its stable growth potential and positive future outlook. 
+The chosen company for investment is TodayPay. It was selected due to its innovative payment solutions, particularly in its 'Refunds as a Service' model, and its strong growth potential in the growing alternative payments market, which positions it well for future success.
 
-The companies that were not selected include:
+The companies that were not selected are:
+1. **Black Ore**: While Black Ore shows promise with its AI-driven tax preparation tools and significant funding, it is focusing on a niche market within tax automation, which may limit its broader appeal compared to TodayPay's versatile payment solutions.
 
-1. **FactSet Research Systems (FDS)**: Although it has a focus on AI-driven solutions, the company has experienced a significant share price decline of approximately 51.5% over the past year, leading to a cautious hold consensus among analysts and posing concerns for short-term investor sentiment.
-
-2. **Block, Inc. (SQ)**: Despite showing ambitious growth potential in earnings and revenue, Block is currently facing challenges with a 20.3% decline in share price year-to-date, significant layoffs, and a mixed analyst sentiment. This leads to a speculative investment outlook, which adds uncertainty for potential investors.
+2. **PAYDAY**: Although PAYDAY operates in the expanding payday loan market and demonstrates substantial investment potential by addressing gaps in financial services, its business model is more traditional and may face regulatory scrutiny compared to the innovative and dynamic approach of TodayPay.

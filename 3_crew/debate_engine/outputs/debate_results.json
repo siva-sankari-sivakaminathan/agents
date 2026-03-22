@@ -148,5 +148,155 @@
       "evidence_analyst": "gpt-4o-mini",
       "fact_checker": "gpt-4o-mini"
     }
+  },
+  {
+    "timestamp": "2026-03-20T09:30:50.215219",
+    "motion": "AI Hiring Discrimination",
+    "winner": "defense",
+    "scores": {
+      "prosecution": {
+        "logic": 7,
+        "evidence": 6,
+        "rebuttal": 5,
+        "clarity": 6,
+        "total": 6
+      },
+      "defense": {
+        "logic": 8,
+        "evidence": 7,
+        "rebuttal": 8,
+        "clarity": 7,
+        "total": 7.5
+      }
+    },
+    "confidence": 0.9,
+    "reasoning": "The defense effectively raised substantial doubts regarding the clarity and specificity of the prosecution's claims about the alleged discriminatory practices of the AI hiring system. While the prosecution presented a theoretically strong case under Title VII, the lack of detailed evidence and concrete examples fundamentally weakened their assertions. The defense made logical points regarding the ambiguity of the allegations and provided evidence that advanced AI systems could mitigate bias. The prosecution failed to sufficiently connect the AI's operations directly to discriminatory outcomes, which is crucial for establishing liability. This reasoning supports a verdict in favor of the defense.",
+    "models": {
+      "prosecutor": "gpt-3.5-turbo",
+      "defense": "gpt-4o-mini",
+      "judge": "gpt-4o-mini",
+      "evidence_analyst": "gpt-4o-mini",
+      "fact_checker": "gpt-4o-mini"
+    }
+  },
+  {
+    "timestamp": "2026-03-20T09:51:24.329238",
+    "motion": "AI Hiring Discrimination",
+    "winner": "prosecution",
+    "scores": {
+      "prosecution": {
+        "logic": 9,
+        "evidence": 8,
+        "rebuttal": 8,
+        "clarity": 8,
+        "total": 8.25
+      },
+      "defense": {
+        "logic": 7,
+        "evidence": 6,
+        "rebuttal": 7,
+        "clarity": 7,
+        "total": 6.75
+      }
+    },
+    "confidence": 0.85,
+    "reasoning": "The prosecution makes a compelling argument based on a combination of demonstrated discriminatory outcomes and established legal principles under Title VII, specifically pointing to the 'disparate impact' framework. The prosecution effectively counters the defense's claims of a lack of conclusive evidence by illustrating that Title VII focuses on the consequences rather than intent. While the defense raises valid points regarding the complexities of AI and the need for thorough analysis, their argument does not sufficiently undermine the prosecutorial claims which rely on the law's provisions that hold employers accountable for the effects of their hiring practices, including those facilitated by AI technologies. Thus, the prosecution's assertion of liability under Title VII is ultimately more robust.",
+    "models": {
+      "prosecutor": "gpt-4o",
+      "defense": "gpt-3.5-turbo",
+      "judge": "gpt-4o-mini",
+      "evidence_analyst": "gpt-4o-mini",
+      "fact_checker": "gpt-4o-mini"
+    }
+  },
+  {
+    "timestamp": "2026-03-22T14:47:02.429062",
+    "motion": "AI Hiring Discrimination",
+    "winner": "defense",
+    "scores": {
+      "prosecution": {
+        "logic": 6,
+        "evidence": 5,
+        "rebuttal": 6,
+        "clarity": 7,
+        "total": 6
+      },
+      "defense": {
+        "logic": 8,
+        "evidence": 7,
+        "rebuttal": 7,
+        "clarity": 8,
+        "total": 7
+      }
+    },
+    "confidence": 0.85,
+    "reasoning": "The prosecution presented a case that highlighted concerns around the potential discriminatory impacts of the AI hiring system. However, their claims lacked rigorous statistical evidence to establish causality between the AI's decision-making processes and the alleged discriminatory outcomes. The defense successfully countered these claims, emphasizing the necessity of concrete evidence for establishing direct links, which the prosecution struggled to provide. Furthermore, the defense effectively argued that human oversight mitigates risks of bias in hiring decisions and defended the notion that the AI should not be classified as a 'person' under employment laws, thus complicating liability. Ultimately, the defense's argument was more robust, addressing the prosecution's claims while exposing the insufficiency of evidence presented. In this context, liability under Title VII remains unproven, and so the defendant's position prevails.",
+    "models": {
+      "prosecutor": "gpt-4o-mini",
+      "defense": "gpt-4o",
+      "judge": "gpt-4o-mini",
+      "evidence_analyst": "gpt-4o-mini",
+      "fact_checker": "gpt-4o-mini"
+    }
+  },
+  {
+    "timestamp": "2026-03-22T14:50:24.480812",
+    "motion": "AI Hiring Discrimination",
+    "winner": "defense",
+    "scores": {
+      "prosecution": {
+        "logic": 7,
+        "evidence": 5,
+        "rebuttal": 6,
+        "clarity": 8,
+        "total": 6.5
+      },
+      "defense": {
+        "logic": 8,
+        "evidence": 7,
+        "rebuttal": 8,
+        "clarity": 8,
+        "total": 7.75
+      }
+    },
+    "confidence": 0.85,
+    "reasoning": "The prosecution argued that the AI hiring system is likely liable under Title VII due to allegations of discrimination, yet largely relied on those allegations without providing specific empirical evidence or metrics to substantiate claims of disparate impact. This missing evidence is critical as Title VII requires a clear demonstration of discriminatory practices. On the other hand, the defense effectively disputed the prosecution's claims by highlighting the lack of concrete data, thereby raising valid concerns about the presumption of liability based on mere allegations. They emphasized that a burden of proof shift requires empirical data which the prosecution failed to provide, establishing a stronger legal argument that demonstrated a clearer understanding of the evidentiary requirements under Title VII.",
+    "models": {
+      "prosecutor": "gpt-3.5-turbo",
+      "defense": "gpt-4o",
+      "judge": "gpt-4o-mini",
+      "evidence_analyst": "gpt-4o-mini",
+      "fact_checker": "gpt-4o-mini"
+    }
+  },
+  {
+    "timestamp": "2026-03-22T14:52:45.378826",
+    "motion": "AI Hiring Discrimination",
+    "winner": "prosecution",
+    "scores": {
+      "prosecution": {
+        "logic": 8,
+        "evidence": 7,
+        "rebuttal": 8,
+        "clarity": 8,
+        "total": 31
+      },
+      "defense": {
+        "logic": 6,
+        "evidence": 5,
+        "rebuttal": 6,
+        "clarity": 7,
+        "total": 24
+      }
+    },
+    "confidence": 0.9,
+    "reasoning": "The prosecution presents a compelling case demonstrating that the defendant's AI hiring system leads to discriminatory outcomes that could violate Title VII. Essential to this argument is the evidence of statistical disparities affecting protected groups, which requires the defendant to provide robust validation and monitoring protocols to avoid liability. The prosecution's claims are well-supported by established legal precedents surrounding disparate impact, reinforcing the argument that the lack of intent is insufficient to absolve liability under Title VII. Conversely, the defense's arguments rest on the assumption that external factors are the source of disparities. However, this does not adequately address the defendant's obligation to ensure that its systems do not perpetuate bias and discrimination. Additionally, the defense lacks strong evidence countering the proffered claims of negligence in oversight. The low scores in logic and evidence reflect the defendant's struggle to substantiate their claims with clear documentation or proof of compliance. Overall, the prosecution's case is stronger, warranting a verdict in their favor.",
+    "models": {
+      "prosecutor": "gpt-4o",
+      "defense": "gpt-4o-mini",
+      "judge": "gpt-4o-mini",
+      "evidence_analyst": "gpt-4o-mini",
+      "fact_checker": "gpt-4o-mini"
+    }
   }
 ]

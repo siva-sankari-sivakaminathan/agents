@@ -17,8 +17,7 @@ class CoderAgent():
         return Agent(
             config=self.agents_config['coder'], # type: ignore[index]
             verbose=True,
-            # Disable code execution so this crew runs without Docker installed.
-            # (CrewAI validates Docker whenever `allow_code_execution=True`.)
+           
             allow_code_execution=False,
             max_retry_limit=3 
         )

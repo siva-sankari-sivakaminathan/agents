@@ -7,6 +7,7 @@ requires-python = ">=3.10,<3.14"
 dependencies = [
     "crewai[google-genai,litellm,tools]==1.10.1",
     "python-dotenv>=1.0.1",
+    "gradio>=4.44.0",
 ]
 
 [project.scripts]
@@ -16,6 +17,7 @@ train = "debate_engine.main:train"
 replay = "debate_engine.main:replay"
 test = "debate_engine.main:test"
 run_with_trigger = "debate_engine.main:run_with_trigger"
+debate_leaderboard = "debate_engine.leaderboard:main"
 
 [build-system]
 requires = ["hatchling"]
