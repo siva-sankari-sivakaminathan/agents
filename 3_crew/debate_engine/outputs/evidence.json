@@ -1,23 +1,26 @@
+```json
 {
   "facts": [
-    "The defendant has implemented an AI hiring system.",
-    "The AI hiring system is alleged to have discriminatory practices.",
-    "The motion references Title VII of the Civil Rights Act.",
+    "The defendant operates an AI hiring system.",
+    "The AI hiring system is alleged to engage in discriminatory practices.",
+    "The claims are made under Title VII of the Civil Rights Act.",
     "Title VII prohibits employment discrimination based on race, color, religion, sex, or national origin.",
-    "Discriminatory practices in hiring may lead to liability under Title VII."
+    "The plaintiff alleges that the AI system disproportionately affects applicants from certain protected classes."
   ],
   "events": [
-    "The implementation of the AI hiring system by the defendant.",
-    "The filing of the motion regarding the liability of the AI hiring system under Title VII."
+    "The AI hiring system was implemented on a specified date (exact date not provided).",
+    "The allegations of discriminatory practices were raised on a specified date (exact date not provided).",
+    "The motion to hold the defendant liable was filed on a specified date (exact date not provided)."
   ],
   "key_points": [
-    "The legal basis for the claim is rooted in Title VII of the Civil Rights Act.",
-    "A finding of liability could arise if the AI system is shown to cause discrimination in hiring.",
-    "The assessment of the AI hiring system’s practices will be pivotal in determining liability."
+    "Determining whether the AI hiring system's practices violate Title VII could depend on statistical evidence.",
+    "The burden of proof may lie with the plaintiffs to demonstrate discriminatory impact.",
+    "The defense may argue the validity and fairness of the AI algorithms used in the hiring process."
   ],
   "uncertainties": [
-    "Specific details on how the AI hiring system operates are not provided.",
-    "It is unclear what evidence is being used to support the claim of discriminatory practices.",
-    "No timeline for the implementation of the AI system or the alleged discriminatory events is explicitly stated."
+    "Specific details about the AI system's algorithms or decision-making processes are not provided.",
+    "No concrete timelines are specified for key events in the case.",
+    "The exact nature and extent of the alleged discriminatory practices are not detailed."
   ]
 }
+```

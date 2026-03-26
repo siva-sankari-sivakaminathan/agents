@@ -2,24 +2,24 @@
 {
   "counter_claims": [
     {
-      "claim": "The AI hiring system is programmed without any intentional bias and is merely reflecting existing biases in the applicant pool, not the actions of the defendant.",
-      "rebuttal_to": "The defendant's AI hiring system results in employment discrimination, violating Title VII of the Civil Rights Act.",
-      "evidence": "The prosecution has not provided proof that the defendant configured the AI system to discriminate. Disparities in job offer rates may arise from the applicant pool's demographics rather than the AI's design or operation.",
-      "confidence": 0.8
-    },
-    {
-      "claim": "The evidence of a disparity in job offers does not necessarily equate to discrimination as defined under Title VII, especially without considering the broader context of the job market.",
-      "rebuttal_to": "The defendant failed to validate the AI system's hiring criteria to ensure they are non-discriminatory and accurately measure job-related abilities.",
-      "evidence": "Statistical anomalies can occur for a variety of legitimate reasons, including candidate qualifications, market conditions, and industry trends. Correlation does not indicate causation explicitly tied to discrimination.",
-      "confidence": 0.75
-    },
-    {
-      "claim": "The internal reviews conducted may not have revealed any systematic bias, suggesting that the AI system does not result in discriminatory outcomes.",
-      "rebuttal_to": "The defendant was negligent in monitoring the AI system's outputs for potential biases and discriminatory outcomes.",
-      "evidence": "The alleged sporadic nature of audits does not inherently imply negligence. Rather, it may indicate a reasonable effort to comply with guidelines, especially in the evolving landscape of AI technology.",
+      "claim": "The defendant's AI hiring system discriminates against applicants from certain protected classes, violating Title VII.",
+      "rebuttal_to": "The assumption that the AI system's impact is solely discriminatory is not substantiated by concrete evidence of intent or detailed analysis of the alleged discriminatory practices.",
+      "evidence": "The uncertainties mentioned include the lack of specific details about the AI system's algorithms or decision-making processes, which means there is a gap in understanding the exact mechanisms leading to alleged discriminatory outcomes.",
       "confidence": 0.7
+    },
+    {
+      "claim": "Statistical evidence can demonstrate the discriminatory impact of the AI system on protected classes.",
+      "rebuttal_to": "While statistical evidence can be indicative, it does not definitively prove discriminatory intent or practices. Other factors beyond the AI system itself could contribute to disparities in hiring outcomes.",
+      "evidence": "Without detailed information about the context in which the AI system operates, such as applicant pool demographics, external market factors, or historical hiring data, attributing disparities solely to the AI system is premature.",
+      "confidence": 0.65
+    },
+    {
+      "claim": "The defendant failed to justify the business necessity of the AI system's discriminatory practices.",
+      "rebuttal_to": "The burden of proof for business necessity lies with the plaintiffs to show that the AI system's practices are not essential to the job and that less discriminatory alternatives exist.",
+      "evidence": "Without a clear understanding of the specific functionalities and requirements of the AI system in the defendant's hiring process, it is premature to conclude on the lack of business necessity without more detailed information.",
+      "confidence": 0.6
     }
   ],
-  "summary": "The prosecution's case against the defendant hinges on claims of discriminatory practices by the AI hiring system. However, multiple weaknesses exist, including the lack of direct evidence linking the system to intentional discrimination, the potential influence of the applicant pool's demographics, and a reasonable interpretation of the defendant's monitoring practices. By emphasizing these aspects, reasonable doubt can be introduced regarding the defendant's liability under Title VII."
+  "summary": "The case against the defendant's AI hiring system for discriminatory practices under Title VII relies heavily on assumptions and generalizations without concrete evidence linking the alleged disparities to discriminatory intent or unjustified bias. The uncertainties surrounding the AI system's operations and the lack of detailed information limit the strength of the prosecution's claims, leaving room for reasonable doubt regarding the system's liability."
 }
 ```

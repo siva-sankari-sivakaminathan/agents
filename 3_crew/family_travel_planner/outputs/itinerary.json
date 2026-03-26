@@ -1,0 +1,124 @@
+{
+  "origin": "Liverpool, UK",
+  "transport_modes": [
+    "train"
+  ],
+  "travel_options": [
+    "Take a direct train from Liverpool Lime Street to Blackpool North - approximately 1 hour 30 minutes. Trains are family-friendly, with space for strollers and onboard restrooms.",
+    "Consider off-peak travel hours for a more relaxed journey with young kids, usually mid-morning or early afternoon trains.",
+    "Reserve seats if possible for added comfort and guaranteed seating, especially helpful with toddlers."
+  ],
+  "destination": "Blackpool, UK",
+  "start_date": "2026-04-05",
+  "end_date": "2026-04-06",
+  "adults_count": 2,
+  "kids_count": 2,
+  "kids_ages": [
+    3,
+    4
+  ],
+  "n_days": 2,
+  "top_airbnb_options": [
+    {
+      "name": "Family home - sea views & parking",
+      "link": "https://www.airbnb.com/rooms/810579291081768862",
+      "why_fit": "Family-friendly home with sea views and free off-street parking for 2 vehicles, within walking distance of Blackpool town centre, suitable for easy transport and kid-friendly nearby activities.",
+      "bedrooms": null,
+      "key_amenities": "Parking, Kitchen"
+    },
+    {
+      "name": "Modern 3 bedroom family home near Blackpool Pleasure Beach",
+      "link": "https://www.airbnb.com/blackpool-united-kingdom/stays",
+      "why_fit": "Modern family home with 3 bedrooms suitable for children, free street parking, and conveniently located near Blackpool Pleasure Beach, providing kitchen facilities and easy access to popular attractions.",
+      "bedrooms": "3 bedrooms",
+      "key_amenities": "Kitchen, Parking"
+    },
+    {
+      "name": "Luxury home with large open plan kitchen and dining area",
+      "link": "https://www.airbnb.com/blackpool-united-kingdom/stays/houses",
+      "why_fit": "Luxury 3-bedroom home with large open plan kitchen and dining area, 2 reception rooms, and a 4-piece bathroom downstairs, ideal for families with kids, close to family-friendly attractions in Blackpool.",
+      "bedrooms": "3 bedrooms",
+      "key_amenities": "Kitchen, Parking"
+    }
+  ],
+  "nearby_places": [
+    {
+      "name": "Stanley Park",
+      "category": "Parks/Playgrounds",
+      "why_good_for_kids": "Stanley Park features stunning gardens and a children's play area designed for ages 2 to 8, including an animal farm themed play area. It offers modern playground equipment in a spacious, safe environment ideal for young children.",
+      "best_for_ages": "[3, 4]",
+      "link": "https://www.blackpool.gov.uk/Residents/Parks-and-community-facilities/Parks,-playgrounds-and-community-facilities/parks-and-sites/stanley-park.aspx"
+    },
+    {
+      "name": "Blackpool Zoo",
+      "category": "Animals/Zoos/Aquariums",
+      "why_good_for_kids": "Blackpool Zoo has over 1,000 animals and offers a lively, educational experience with diverse exhibits and animal shows. It's great for young kids to learn about animals in a fun environment.",
+      "best_for_ages": "[3, 4]",
+      "link": "https://www.blackpoolzoo.org.uk/"
+    },
+    {
+      "name": "Blackpool Tower Circus",
+      "category": "Special Experiences",
+      "why_good_for_kids": "The Blackpool Tower Circus is suitable for all ages, including toddlers, offering a classic circus experience with family-friendly performances that delight young children.",
+      "best_for_ages": "[3, 4]",
+      "link": "https://www.lovetovisit.com/uk-attractions/the-blackpool-tower-circus"
+    },
+    {
+      "name": "Planet Kaos",
+      "category": "Indoor Options",
+      "why_good_for_kids": "Planet Kaos is Blackpool's number one indoor play area for children aged 12 months to 10 years. It features fun and safe play facilities perfect for young kids on rainy days.",
+      "best_for_ages": "[3, 4]",
+      "link": "https://www.planetkaos.co.uk/"
+    }
+  ],
+  "daily_plans": [
+    {
+      "day_number": 1,
+      "date": "2026-04-05",
+      "morning": "Arrive in Blackpool by train from Liverpool. Settle into your chosen Airbnb family home. After unpacking, take a short walk to Stanley Park for a gentle morning play in the children's area and gardens, perfect for ages 3 and 4.",
+      "midday_break": "Return to the Airbnb for a lunch break with homemade sandwiches and fresh fruit. Allow toddlers a rest or nap time to recharge in a quiet, comfortable space.",
+      "afternoon": "Visit Blackpool Zoo in the afternoon, where kids can enjoy seeing a variety of animals and engaging in safe, educational exhibits suitable for young children.",
+      "evening": "Have a calm evening meal in the Airbnb using the kitchen. Then head out for a relaxed early evening stroll along the promenade to enjoy the sea air.",
+      "rainy_day_backup": "If raining, spend the afternoon at Planet Kaos indoor play area, which is perfect for toddlers and offers plenty of active but safe play options indoors.",
+      "distance_notes": "Train Liverpool-Lime Street to Blackpool North ~1h 30m; Airbnb to Stanley Park ~10 minutes walk; Stanley Park to Blackpool Zoo ~5 minutes by car or taxi; Zoo back to Airbnb ~10 minutes by car or taxi; Evening promenade near Airbnb."
+    },
+    {
+      "day_number": 2,
+      "date": "2026-04-06",
+      "morning": "Start your day with breakfast at the Airbnb. Then visit the Blackpool Tower Circus for a fun family-friendly performance ideal for young children.",
+      "midday_break": "Return to the Airbnb to relax and have a lunch of simple pasta or soup prepared in the kitchen. Provide quiet downtime or naps for kids.",
+      "afternoon": "Go to Stanley Park again or visit a nearby park like Anchorsholme Park for more outdoor playtime if weather permits. Alternatively, explore Blackpool's indoor Sandcastle Waterpark if the weather is cooler or wet.",
+      "evening": "Enjoy a quiet evening at the Airbnb. Do some light games or storytelling to wind down and prepare for the journey home.",
+      "rainy_day_backup": "On a rainy day, spend the afternoon at the Sandcastle Waterpark for indoor water fun in a safe and toddler-friendly environment.",
+      "distance_notes": "Airbnb to Blackpool Tower Circus ~15 minutes walk or short taxi ride; Circus back to Airbnb ~15 minutes; Airbnb to Stanley Park or Anchorsholme Park ~10-15 minutes by car; Waterpark alternative ~10 minutes by car."
+    }
+  ],
+  "packing_list": [
+    "Comfortable walking shoes for all",
+    "Light rain jackets and umbrellas",
+    "Snacks for travel and day outings (fruit, crackers, juice boxes)",
+    "Portable stroller or buggy",
+    "Favorite toys or comfort items for kids",
+    "Sun hats and sunscreen (for sunny weather)",
+    "Reusable water bottles",
+    "Basic first aid kit",
+    "Swimwear and towels (for waterpark visit)",
+    "Camera or smartphone for photos"
+  ],
+  "travel_tips": [
+    "Book train tickets early and reserve seats if possible for more comfortable travel with toddlers.",
+    "Pack snacks and entertainment for the train journey to keep kids happy.",
+    "Plan activities with plenty of breaks and downtime for kids’ naps and rest.",
+    "Choose accommodations with kitchen facilities to prepare meals for young children easily.",
+    "Bring layers and be prepared for unpredictable spring weather in the UK.",
+    "Use local taxis or short car rides to minimize long walks or complicated transport with young kids."
+  ],
+  "assumptions": [
+    "The family prefers a relaxed pace suitable for toddlers aged 3 and 4.",
+    "The chosen accommodation amenities include a kitchen and parking, near public transport and parks.",
+    "Transport between places within Blackpool is via short taxi rides or walking where feasible.",
+    "Train travel from Liverpool to Blackpool is direct and convenient for a family with young kids.",
+    "Lunch breaks include homemade or easily prepared meals in the Airbnb to maintain routine and comfort.",
+    "Indoor play options are chosen for rainy days to keep children engaged and safe."
+  ]
+}

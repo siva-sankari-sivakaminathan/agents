@@ -298,5 +298,35 @@
       "evidence_analyst": "gpt-4o-mini",
       "fact_checker": "gpt-4o-mini"
     }
+  },
+  {
+    "timestamp": "2026-03-26T09:42:16.336920",
+    "motion": "AI Hiring Discrimination",
+    "winner": "prosecution",
+    "scores": {
+      "prosecution": {
+        "logic": 8,
+        "evidence": 8,
+        "rebuttal": 8,
+        "clarity": 8,
+        "total": 8
+      },
+      "defense": {
+        "logic": 6,
+        "evidence": 6,
+        "rebuttal": 6,
+        "clarity": 7,
+        "total": 6.25
+      }
+    },
+    "confidence": 0.9,
+    "reasoning": "The prosecution successfully establishes a claim of disparate impact under Title VII by presenting statistical evidence that the AI hiring system disproportionately affects protected classes. They argue that this evidence substantiates a prima facie case of discrimination, shifting the burden to the defendant to prove business necessity. While the defense argues against the sufficiency of evidence and claims that unmeasured external factors contribute to hiring outcomes, they do not sufficiently dismantle the basic premise of disparate impact as defined under Title VII. Additionally, the burden of proof, once the baseline of adverse impact is established, lies with the defendant, requiring them to demonstrate that the AI practices are essential and that there are no less discriminatory alternatives. Overall, the prosecution provides more compelling logic, evidence, and rebuttals, leading to a clear indication of liability on the defendant's part.",
+    "models": {
+      "prosecutor": "gpt-4o",
+      "defense": "gpt-3.5-turbo",
+      "judge": "gpt-4o-mini",
+      "evidence_analyst": "gpt-4o-mini",
+      "fact_checker": "gpt-4o-mini"
+    }
   }
 ]

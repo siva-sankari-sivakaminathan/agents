@@ -1,0 +1,61 @@
+find_airbnb_options:
+  description: >
+    Use web search to find a shortlist of family-friendly Airbnb options near {destination}.
+    Group results by likely suitability for families with {kids_count} kids (ages: {kids_ages}).
+    Focus on: space/bedrooms for families, kitchen access, parking/transport convenience,
+    and proximity to kid-friendly attractions.
+  expected_output: >
+    A JSON object with a single key `options` containing a list of 5-8 options.
+    Each option object must include these exact fields:
+    - name
+    - link
+    - why_fit (2-4 bullets in a single string)
+    - bedrooms (string; may be null if not found)
+    - key_amenities (string; may be null if not found)
+    Note: availability and exact pricing may vary; use search snippets and only provide links you can cite.
+  agent: airbnb_finder
+
+find_nearby_places:
+  description: >
+    Use web search to find nearby kid-friendly places around {destination} for kid ages {kids_ages}.
+    Provide a curated list with categories:
+    - outdoor parks/playgrounds
+    - indoor rainy-day options
+    - animals/zoos/aquariums (if relevant)
+    - educational/museums (kid-friendly)
+    - any special experiences (shows, workshops) if appropriate.
+    Try to keep recommendations clustered by area to reduce travel time.
+  expected_output: >
+    A JSON object with a single key `places` containing a list of 12-20 places.
+    Each place object must include these exact fields:
+    - name
+    - category
+    - why_good_for_kids (2-3 short sentences)
+    - best_for_ages (string; use {kids_ages})
+    - link (URL string if possible, else null)
+  agent: nearby_places_finder
+
+build_kid_friendly_itinerary:
+  description: >
+    Using the Airbnb shortlist and nearby places, build a full kid-friendly itinerary for
+    {n_days} days from {start_date} to {end_date} for {adults_count} adults and {kids_count} kids
+    (ages: {kids_ages}).
+    Also, the family will travel from {origin} to {destination}. The selected travel modes are: {transport_modes}.
+    Suggest practical travel options for each selected mode (kid-friendly).
+    Family profile/preferences: {family_preferences}.
+    Pace preference: {pace_preference}. Budget per night (if provided): {budget_per_night_gbp}. Must-have amenities: {must_have_amenities}.
+    The itinerary must include for each day:
+    - morning activity
+    - midday break (rest/nap option + lunch suggestion)
+    - afternoon activity
+    - evening plan (family-friendly, lower intensity)
+    - rainy-day backup (at least one indoor option per day)
+    - distance notes: approximate distances/travel time between the day's stops (morning->midday->afternoon->evening)
+    Keep the pace realistic for families: minimize long drives and include snack/play breaks.
+  expected_output: >
+    Produce a single JSON object matching the itinerary schema:
+    origin, transport_modes, travel_options,
+    destination, start_date, end_date, adults_count, kids_count, kids_ages, n_days,
+    top_airbnb_options, nearby_places, daily_plans, packing_list, travel_tips, assumptions.
+    Each daily_plans item must include: day_number, date, morning, midday_break, afternoon, evening, rainy_day_backup, distance_notes.
+  agent: itinerary_builder

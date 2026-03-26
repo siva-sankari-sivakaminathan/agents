@@ -2,24 +2,24 @@
 {
   "claims": [
     {
-      "claim": "The defendant's AI hiring system results in employment discrimination, violating Title VII of the Civil Rights Act.",
-      "evidence": "The system has disproportionately filtered out candidates from certain racial and gender groups during the hiring process, as demonstrated by statistical analysis showing a significant disparity in job offer rates.",
-      "legal_basis": "Title VII prohibits employment discrimination based on race, color, religion, sex, or national origin. If an AI system causes a disparate impact on these bases, it may constitute a violation.",
+      "claim": "The defendant's AI hiring system discriminates against applicants from certain protected classes, violating Title VII.",
+      "evidence": "The plaintiffs allege that the AI system disproportionately affects certain protected classes. Given the context of Title VII, which prohibits discrimination based on race, color, religion, sex, or national origin, any system that disproportionately excludes individuals from these groups can be seen as discriminatory unless justified by business necessity.",
+      "legal_basis": "Title VII of the Civil Rights Act prohibits discriminatory practices in employment, which includes hiring processes. If the AI hiring system results in disparate impact on protected classes, it constitutes a violation unless the defendant can prove it is job-related and consistent with business necessity.",
       "confidence": 0.85
     },
     {
-      "claim": "The defendant failed to validate the AI system's hiring criteria to ensure they are non-discriminatory and accurately measure job-related abilities.",
-      "evidence": "There is a lack of documentation proving the defendant conducted rigorous validation studies, which are crucial for establishing that selection procedures are predictive of or significantly related to job performance per EEOC guidelines.",
-      "legal_basis": "Under EEOC guidelines, employers must validate that their selection criteria are non-discriminatory and job-relevant. Failing to do so, especially in the context of AI, implicates liability.",
-      "confidence": 0.80
+      "claim": "Statistical evidence can demonstrate the discriminatory impact of the AI system on protected classes.",
+      "evidence": "The determination under Title VII often relies on statistical analysis showing disparate impact. If statistical evidence reveals that certain protected groups have lower rates of hire compared to others, it can establish a prima facie case of discrimination.",
+      "legal_basis": "Under the disparate impact theory, a plaintiff can establish a case if they demonstrate that a practice has a statistically significant adverse effect on a protected class. The defendant then bears the burden of proving the business necessity of the practice.",
+      "confidence": 0.8
     },
     {
-      "claim": "The defendant was negligent in monitoring the AI system's outputs for potential biases and discriminatory outcomes.",
-      "evidence": "Internal reviews and audits of the AI system were sporadic and failed to address documented concerns raised by multiple applicants about biased outcomes.",
-      "legal_basis": "Employers are responsible for ensuring that their employment practices, including automated decision-making systems, do not result in discrimination. Negligence in monitoring these systems constitutes a breach of Title VII obligations.",
+      "claim": "The defendant failed to justify the business necessity of the AI system's discriminatory practices.",
+      "evidence": "While the defense might assert the AI's validity and fairness, without concrete, specific evidence countering the statistical data suggesting discrimination, they fail to meet the requirements of the business necessity defense.",
+      "legal_basis": "To defend against a claim of disparate impact under Title VII, the defendant must show that the challenged practice is essential to the job and that no less discriminatory alternative exists. In the absence of these arguments or proof, liability under Title VII is substantiated.",
       "confidence": 0.75
     }
   ],
-  "summary": "The defendant's AI hiring system is alleged to engage in discriminatory practices that violate Title VII of the Civil Rights Act. Key claims include evidence of disparate impact on protected groups and lack of validation and monitoring of the system to prevent bias. These failures demonstrate liability under Title VII due to the system's discriminatory effects and the defendant's negligence in oversight."
+  "summary": "The defendant's AI hiring system likely violates Title VII due to discriminatory impacts on protected classes. Statistical evidence supporting these impacts creates a strong case for liability, which the defendant has not successfully rebutted with evidence of business necessity or alternative practices."
 }
 ```

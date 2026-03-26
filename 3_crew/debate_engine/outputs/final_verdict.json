@@ -3,23 +3,23 @@
   "scores": {
     "prosecution": {
       "logic": 8,
-      "evidence": 7,
+      "evidence": 8,
       "rebuttal": 8,
       "clarity": 8,
-      "total": 31
+      "total": 8
     },
     "defense": {
       "logic": 6,
-      "evidence": 5,
+      "evidence": 6,
       "rebuttal": 6,
       "clarity": 7,
-      "total": 24
+      "total": 6.25
     }
   },
-  "reasoning": "The prosecution presents a compelling case demonstrating that the defendant's AI hiring system leads to discriminatory outcomes that could violate Title VII. Essential to this argument is the evidence of statistical disparities affecting protected groups, which requires the defendant to provide robust validation and monitoring protocols to avoid liability. The prosecution's claims are well-supported by established legal precedents surrounding disparate impact, reinforcing the argument that the lack of intent is insufficient to absolve liability under Title VII. Conversely, the defense's arguments rest on the assumption that external factors are the source of disparities. However, this does not adequately address the defendant's obligation to ensure that its systems do not perpetuate bias and discrimination. Additionally, the defense lacks strong evidence countering the proffered claims of negligence in oversight. The low scores in logic and evidence reflect the defendant's struggle to substantiate their claims with clear documentation or proof of compliance. Overall, the prosecution's case is stronger, warranting a verdict in their favor.",
+  "reasoning": "The prosecution successfully establishes a claim of disparate impact under Title VII by presenting statistical evidence that the AI hiring system disproportionately affects protected classes. They argue that this evidence substantiates a prima facie case of discrimination, shifting the burden to the defendant to prove business necessity. While the defense argues against the sufficiency of evidence and claims that unmeasured external factors contribute to hiring outcomes, they do not sufficiently dismantle the basic premise of disparate impact as defined under Title VII. Additionally, the burden of proof, once the baseline of adverse impact is established, lies with the defendant, requiring them to demonstrate that the AI practices are essential and that there are no less discriminatory alternatives. Overall, the prosecution provides more compelling logic, evidence, and rebuttals, leading to a clear indication of liability on the defendant's part.",
   "confidence": 0.9,
   "prosecutor_model": "gpt-4o",
-  "defense_model": "gpt-4o-mini",
+  "defense_model": "gpt-3.5-turbo",
   "judge_model": "gpt-4o-mini",
   "evidence_analyst_model": "gpt-4o-mini",
   "fact_checker_model": "gpt-4o-mini"

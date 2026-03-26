@@ -1,42 +1,27 @@
 ```json
 {
   "verified_claims": [
-    "The defendant has implemented an AI hiring system.",
-    "The AI hiring system is alleged to have discriminatory practices.",
-    "The motion references Title VII of the Civil Rights Act.",
+    "The defendant operates an AI hiring system.",
+    "The AI hiring system is alleged to engage in discriminatory practices.",
+    "The claims are made under Title VII of the Civil Rights Act.",
     "Title VII prohibits employment discrimination based on race, color, religion, sex, or national origin.",
-    "Discriminatory practices in hiring may lead to liability under Title VII."
+    "The plaintiff alleges that the AI system disproportionately affects applicants from certain protected classes."
   ],
   "flagged_issues": [
     {
-      "claim": "The defendant's AI hiring system results in employment discrimination, violating Title VII of the Civil Rights Act.",
-      "issue": "The claim lacks specific evidence regarding how the AI system is discriminatory and relies on alleged disparities without substantiation.",
-      "severity": "medium"
-    },
-    {
-      "claim": "The defendant failed to validate the AI system's hiring criteria to ensure they are non-discriminatory and accurately measure job-related abilities.",
-      "issue": "The claim points to a lack of documentation but does not provide details on what specific validations were or weren't performed by the defendant.",
-      "severity": "medium"
-    },
-    {
-      "claim": "The internal reviews conducted may not have revealed any systematic bias, suggesting that the AI system does not result in discriminatory outcomes.",
-      "issue": "This counters the assertion of negligence but may be misleading if not backed by thorough evidence of systematic checks and audits.",
-      "severity": "medium"
-    },
-    {
-      "claim": "Disparities in job offer rates may arise from the applicant pool's demographics rather than the AI's design or operation.",
-      "issue": "This claim shifts responsibility to external factors without addressing the obligation of the defendant to ensure non-discriminatory practices.",
+      "claim": "The defendant's AI hiring system discriminates against applicants from certain protected classes, violating Title VII.",
+      "issue": "The claim lacks concrete evidence about the intent of the AI system and detailed analysis of how the alleged discriminatory practices function.",
       "severity": "high"
     },
     {
-      "claim": "Statistical anomalies can occur for a variety of legitimate reasons, including candidate qualifications, market conditions, and industry trends.",
-      "issue": "While true, this claim is misleading as it downplays the potential implications of the AI system's outcomes on protected groups unless directly substantiated.",
+      "claim": "Statistical evidence can demonstrate the discriminatory impact of the AI system on protected classes.",
+      "issue": "Attributing disparities solely to the AI system may overlook other contributing factors outside of the system itself.",
       "severity": "medium"
     },
     {
-      "claim": "The sporadic and insufficient nature of the internal reviews indicates a lack of due diligence by the defendant.",
-      "issue": "This argument does not acknowledge any legitimate steps the defendant may have taken to monitor the system, thus potentially misrepresenting the defendant's actions.",
-      "severity": "medium"
+      "claim": "The defendant failed to justify the business necessity of the AI system's discriminatory practices.",
+      "issue": "The assertion misrepresents the burden of proof regarding business necessity under Title VII, misleading the legal framework in question.",
+      "severity": "high"
     }
   ]
 }
